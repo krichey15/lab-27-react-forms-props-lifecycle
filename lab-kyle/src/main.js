@@ -4,8 +4,8 @@ import React from 'react';
 import ReactDom from 'react-dom';
 import './style/main.scss';
 import superagent from 'superagent';
-import Header from '../component/header/header.js';
-import Footer from '../component/footer/footer.js';
+import Header from './component/header';
+import Footer from './component/footer';
 
 const main = document.getElementbyId('main');
 
@@ -26,7 +26,7 @@ class App extends React.Component{
         <Header />
         <Search />
         <Footer />
-      <div>
+      </div>
     )
   }
 }
