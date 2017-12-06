@@ -1,0 +1,1 @@
+npm install --save-dev webpack webpack-dev-server html-webpack-plugin node-sass sass-loader  resolve-url-loader css-loader extract-text-webpack-plugin babel-core babel-loader babel-preset-react babel-preset-env babel-plugin-transform-object-rest-spread react react-dom

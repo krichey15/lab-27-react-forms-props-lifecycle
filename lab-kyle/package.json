@@ -1,0 +1,21 @@
+{
+  "name": "lab-27-react-forms-props-lifecycle",
+  "version": "0.0.1",
+  "description": "Lab-27",
+  "main": "index.js",
+  "scripts": {
+    "watch": "webpack-dev-server --inline --hot",
+    "build": "webpack --optimize-minimize",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krichey15/lab-27-react-forms-props-lifecycle.git"
+  },
+  "author": "richey.kyle.i@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/krichey15/lab-27-react-forms-props-lifecycle/issues"
+  },
+  "homepage": "https://github.com/krichey15/lab-27-react-forms-props-lifecycle#readme"
+}
