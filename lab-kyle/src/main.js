@@ -7,13 +7,7 @@ import superagent from 'superagent';
 import Header from './component/header';
 import Footer from './component/footer';
 
-const main = document.getElementbyId('main');
-
-class Search extends React.Component{
-  constructor(props){
-    super(props);
-  }
-}
+const main = document.getElementById('main');
 
 class App extends React.Component{
   constructor(props){
@@ -23,7 +17,6 @@ class App extends React.Component{
     return (
       <div>
         <Header />
-        <Search />
         <Footer />
       </div>
     )
