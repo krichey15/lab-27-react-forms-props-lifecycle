@@ -2,7 +2,6 @@
 
 import React from 'react';
 import ReactDom from 'react-dom';
-import './style/main.scss';
 import superagent from 'superagent';
 import Header from './component/header';
 import Footer from './component/footer';
