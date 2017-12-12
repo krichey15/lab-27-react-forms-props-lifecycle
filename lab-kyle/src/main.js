@@ -51,7 +51,7 @@ class SearchForm extends React.Component {
       )
     }
   }
-
+/*running into a bug, the value will add 1 or  2 to it when viewing the log of "__STATE__" think it is on reddits end.*/
 class SearchResultList extends React.Component{
   constructor(props){
     super(props);
