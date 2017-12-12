@@ -28,7 +28,7 @@ class SearchForm extends React.Component {
 
     handleSubmit(e){
       e.preventDefault();
-      this.props.search(this.state.limit, this.state.board);
+      this.props.search(this.state.board, this.state.limit);
     }
 
     handleBoard(e){
