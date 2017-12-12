@@ -59,11 +59,28 @@ class SearchResultList extends React.Component{
 
   render(){
     return (
-      <div>
+      <div className="result-list">
+        {this.props.results ?
+        <ul>
+          {this.props.results.map((item, i) => {
+            return(
+              <li key={i}>
+                <a href={item.data.url}>
+                  <h3>{item.data.title}</h3>
+                </a>
+                <span>Up-Votes:{item.data.ups}</span>
+              </li>
+            )
+          })}
+        </ul> :
+        <h3>Sorry,  No Results Were Found</h3>
+        //doesnt seem to be getting this.
+      }
       </div>
     )
   }
 }
+
 
 class App extends React.Component{
   constructor(props){
